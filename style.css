@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #72767cb9;
+    }
+    h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: aqua;
+    }
+    input[type="text"] {
+    padding: 8px;
+    width: 60%;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    margin-right: 10px;
+    }
+    button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fcfcfc;
+    cursor: pointer;
+    }
+    ul {
+    list-style-type: none;
+    padding: 0;
+    }
+    li {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    padding: 8px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    .completed {
+    text-decoration: line-through;
+    color: #888;
+    }
+    button.delete {
+    margin-left: auto;
+    background-color: #dc3545;
+    }
+    input {
+        color: rgb(0, 104, 165);
+        font-size: 14px;
+        font-family: monospace;
+        border: 2px solid darkblue; /* Agregar un borde al botón */
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);}
+        button:hover {
+            color: white; /* Cambiar el color del texto al pasar el cursor sobre el botón */
+            background-color: #011135; /* Cambiar el color de fondo al pasar el cursor sobre el botón */
+        }
+        
+        button:active {
+            background-color: #011135; /* Cambiar el color de fondo cuando se hace clic en el botón */
+        }
